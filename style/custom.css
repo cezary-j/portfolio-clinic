@@ -1,0 +1,36 @@
+body {
+    font-family:'Montserrat', sans-serif;
+}
+.navbar {
+    background-color: #BBEAD8;
+}
+
+.top-nav {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+h1 {
+    margin-top: 10rem;
+}
+
+.main-box {
+    border-radius: 1px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+.box {
+    width: 25%;
+}
+
+.img-icon {
+    height: 4rem;
+    width: 4rem;
+}
+
+.main-box h2 {
+    font-size: 1rem;
+    color: #BBEAD8;
+}
+.main-box h3 {
+    font-size: 0.8rem;
+    color: #686868;
+}
