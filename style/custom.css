@@ -1,6 +1,9 @@
 body {
     font-family:'Montserrat', sans-serif;
 }
+
+/*  NAVBAR  */
+
 .navbar {
     background-color: #BBEAD8;
 }
@@ -12,10 +15,18 @@ body {
 h1 {
     margin-top: 10rem;
 }
+h2 {
+    text-transform: uppercase;
+}
+
+/*  MAIN BOX  */
 
 .main-box {
     border-radius: 1px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    z-index: 90;
+    position: relative;
+    background-color: #fff;
 }
 .box {
     width: 25%;
@@ -33,4 +44,68 @@ h1 {
 .main-box h3 {
     font-size: 0.8rem;
     color: #686868;
+}
+
+/*  ABOUT  */
+
+#about {
+    background-color: #fcfcfc;
+    height: 600px;
+    margin-top: -60px;
+}
+#about h2 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+article {
+    line-height: 2rem;
+}
+
+.button {
+    width: 160px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #BBEAD8;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*  OFFER  */
+
+#offer {
+    padding-top: 7rem;
+}
+.offer-box {
+    height: 350px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    margin-top: 5rem;
+}
+.offer-img {
+    height: 170px;
+}
+.offer-img-1 {
+    background-image: url("../img/legs.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.offer-img-2 {
+    background-image: url("../img/face.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.offer-img-3 {
+    background-image: url("../img/szyja.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#offer h3 {
+    font-size: 1.25rem;
+}
+
+.paragraph {
+    font-size: 0.9rem;
 }
