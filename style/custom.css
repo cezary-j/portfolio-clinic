@@ -50,7 +50,6 @@ h2 {
 
 #about {
     background-color: #fcfcfc;
-    height: 600px;
     margin-top: -60px;
 }
 #about h2 {
@@ -108,4 +107,46 @@ article {
 
 .paragraph {
     font-size: 0.9rem;
+}
+
+/*  CONTACT  */
+#contact {
+    background-color: #fcfcfc;
+}
+#contact h2 {
+    padding-top: 7rem;
+    padding-bottom: 1.5rem;
+}
+
+.contact-subtitle {
+    font-size: 0.8rem;
+    padding-bottom: 4rem;
+    color: #BBEAD8;
+
+}
+.contact-form {
+    width: 70%;
+    margin: 0 auto;
+}
+.form-control {
+    border: 1px solid #BBEAD8;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    font-size: 0.8rem;
+    padding: 1.75rem 1rem;
+}
+#message_input {
+    border: 1px solid #BBEAD8;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    width: 100%;
+    margin-top: 8rem;
+}
+input, textarea {
+    height: 50px;
+    font-size: 0.8rem;
 }
