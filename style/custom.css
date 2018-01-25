@@ -147,6 +147,9 @@ article {
     font-size: 1.25rem;
 }
 
+#offer .button {
+    padding-top: 5px;
+}
 .paragraph {
     font-size: 0.9rem;
 }
