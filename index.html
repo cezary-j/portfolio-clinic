@@ -5,8 +5,11 @@
   <title>Klinika medycyny estetycznej</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="style/bootstrap.min.css">
+  <link rel="stylesheet" href="style/font-awesome.min.css">
   <link rel="stylesheet" href="style/custom.css">
-  <link href="fonts/">
+
+
+  <link href="fonts">
 </head>
 <body>
 
@@ -37,15 +40,20 @@
 
 <!--  NAV  -->
 
-  <nav class="navbar navbar-expand-sm my-3 d-flex">
+  <nav class="navbar navbar-expand-md navbar-dark my-1">
     <div class="container">
-      <div class="navbar-nav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <div class="navbar-nav text-uppercase">
         <a href="#" class="nav-link nav-item text-white px-4">home</a>
         <a href="#" class="nav-link nav-item text-white px-4">o nas</a>
         <a href="#" class="nav-link nav-item text-white px-4">oferta</a>
         <a href="#" class="nav-link nav-item text-white px-4">cennik</a>
         <a href="#" class="nav-link nav-item text-white px-4">kontakt</a>
       </div>
+    </div>
     </div>
   </nav>
 
@@ -54,13 +62,15 @@
   <section id="hero">
     <div class="container">
       <div class="row">
-        <div class="col-6">
-          <h1>health & beauty</h1>
+        <div class="col-md-6 text-center">
+          <h1 class="text-uppercase">health & beauty</h1>
           <h2>klinika medycyny estetycznej</h2>
-          <button class="btn btn-success">poznaj nas</button>
+          <div>
+          <button class="button">poznaj nas</button>
+          </div>
         </div>
-        <div class="col-6">
-          <img src="img/kobieta.png" class="img-fluid">
+        <div class="col-md-6 d-flex">
+          <img class="align-self-end img-fluid" src="img/kobieta.png">
         </div>
       </div>
 
@@ -71,9 +81,9 @@
   <div class="container">
     <div class="main-box d-flex text-uppercase" style="height: 130px">
 
-      <div class="col box d-flex">
+      <div class="col box d-flex" id="box-1">
         <div class="box-icon align-self-center">
-          <img class="mx-2 img-icon" src="img/plastic-icon1.svg">
+          <img class="mx-2 img-icon" src="img/plastic-icon1.svg" id="icon-1">
         </div>
         <div class="box-text align-self-center px-2">
           <h2>chirurgia plastyczna</h2>
@@ -81,9 +91,9 @@
         </div>
       </div>
 
-      <div class="col box d-flex">
-        <div class="box-icon align-self-center ">
-          <img class="mx-2 img-icon" src="img/hair-icon1.svg">
+      <div class="col box d-flex" id="box-2">
+        <div class="box-icon align-self-center">
+          <img class="mx-2 img-icon" src="img/hair-icon1.svg" id="icon-2">
         </div>
         <div class="box-text align-self-center px-2">
           <h2>transplantacja włosów</h2>
@@ -91,9 +101,9 @@
         </div>
       </div>
 
-      <div class="col box d-flex">
+      <div class="col box d-flex" id="box-3">
         <div class="box-icon align-self-center">
-          <img class="mx-2 img-icon" src="img/relax-icon.svg">
+          <img class="mx-2 img-icon" src="img/relax-icon.svg" id="icon-3">
         </div>
         <div class="box-text align-self-center px-2">
           <h2>strefa relaksu</h2>
@@ -198,7 +208,7 @@
         <span>
           <textarea name="message" placeholder="Wpisz wiadomość" id="message_input"></textarea>
         </span>
-        <div class="my-4 py-4 text-center send-button">
+        <div class="py-4 text-center send-button">
           <input type="submit" value="Wyślij" class="button" id="form-button">
         </div>
       </div>
@@ -224,7 +234,8 @@
 
 
 
-<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
