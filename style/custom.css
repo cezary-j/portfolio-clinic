@@ -14,11 +14,26 @@ body {
 
 h1 {
     margin-top: 10rem;
+    font-size: 3rem;
+    font-weight: 400;
 }
 h2 {
     text-transform: uppercase;
+    font-weight: 200;
 }
 
+/*  HERO  */
+
+#hero h2 {
+    font-size: 1.2rem;
+    color: #BBEAD8;
+}
+
+#hero .button {
+    margin-top: 4rem;
+    width: 180px;
+    height: 40px;
+}
 /*  MAIN BOX  */
 
 .main-box {
@@ -74,6 +89,7 @@ article {
 
 #offer {
     padding-top: 7rem;
+    padding-bottom: 5rem;
 }
 .offer-box {
     height: 350px;
@@ -110,8 +126,10 @@ article {
 }
 
 /*  CONTACT  */
+
 #contact {
     background-color: #fcfcfc;
+    padding-bottom: 4rem;
 }
 #contact h2 {
     padding-top: 7rem;
@@ -149,4 +167,32 @@ article {
 input, textarea {
     height: 50px;
     font-size: 0.8rem;
+}
+
+/*  MEDIA  */
+
+@media (max-width: 991px) {
+    #hero .button {
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+
+}
+
+@media (max-width: 767px) {
+    #hero img {
+        height: 25rem;
+        margin: 0 auto;
+    }
+    #hero h1 {
+        margin-top: 4rem;
+        font-size: 2rem;
+    }
+    #hero h2 {
+        font-size: 1rem;
+    }
+    .main-box h2, h3 {
+        display: none;
+    }
+
 }
