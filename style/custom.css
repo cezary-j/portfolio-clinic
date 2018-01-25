@@ -155,6 +155,12 @@ article {
     font-size: 0.8rem;
     padding: 1.75rem 1rem;
 }
+
+.form-control:focus {
+    background: transparent;
+}
+
+
 #message_input {
     border: 1px solid #BBEAD8;
     border-top: none;
@@ -164,9 +170,26 @@ article {
     width: 100%;
     margin-top: 8rem;
 }
+
 input, textarea {
     height: 50px;
     font-size: 0.8rem;
+}
+
+input[type='text'], [type='email'], select, textarea {
+
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+    outline: none;
+    padding: 0 0 0.875em 0;
+    font-size: 0.6em;
+
 }
 
 /*  MEDIA  */
@@ -175,6 +198,12 @@ input, textarea {
     #hero .button {
         margin-top: 1rem;
         margin-bottom: 4rem;
+    }
+
+}
+@media (max-width: 1199px) {
+    #hero h1 {
+        font-size: 2rem;
     }
 
 }
@@ -193,6 +222,9 @@ input, textarea {
     }
     .main-box h2, h3 {
         display: none;
+    }
+    #about {
+        text-align: center;
     }
 
 }
