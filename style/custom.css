@@ -52,18 +52,24 @@ h2 {
     width: 26%;
     height:150px;
     cursor: pointer;
-    background-color:red;
-    color: white;
+    background-color:#7cddb8;
     border-radius: 1px;
 }
-.box:hover {
-    transition: 0.1s;
-    background-color: grey;
+.box-active .img-icon {
+  color: white;
 }
+
+
+.main-box .box-active h2 {
+    color: #fff;
+}
+.main-box .box-active h3 {
+    color: #c2fce6;
+}
+
 .box-active::before {
     height: 20px;
     width: 100%;
-    content: '';
 
 
 }
